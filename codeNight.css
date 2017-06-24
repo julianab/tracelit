@@ -1,0 +1,153 @@
+body {
+  background: #f0efef;
+  margin: 0;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background: #033048;
+  overflow: hidden;
+}
+header h1 {
+    color: #fff;
+}
+h1 {
+  text-align: center;
+  margin: 15px 0;
+  font-weight: normal;
+}
+nav {
+  text-align: center;
+}
+nav ul {
+  padding-left: 0;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: #f9e42e;
+  display: inline-block;
+  font-size: 17px;
+  margin: 0 8.5px;
+  padding: 0.25em 0.5em;
+}
+nav ul li a:hover, nav ul li a.active {
+  border-bottom: 2px solid white;
+}
+h3{
+  font-style: italic;
+  display: inline-block;
+}
+section {
+  overflow: auto;
+}
+div .grid_4 {
+  margin-top: 40px;
+}
+form {
+  margin: 40px 0;
+}
+footer {
+  background: #033048;
+  padding:20px 20px;
+  text-align: center;
+}
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 10px;
+}
+footer p {
+  color: #fff;
+  margin: 0;
+}
+/* Center the container */
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 500;
+}
+.logo img {
+  vertical-align: sub;
+}
+strong {
+  font-weight: 600;
+}
+#about-main {
+  background-image: url("images/stockPhotoHomePage.jpg");
+  min-height: 250px;
+}
+.main {
+  background-position: center 25%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.main p {
+  background-color: rgba(55, 55, 55, .85);
+  color: white;
+  padding: 8px;
+  height: 90px;
+}
+.container p {
+  margin-top: 70px;
+  width: 600px;
+  display: center;
+}
+.profileImage {
+  width: 200px;
+  height: 250px;
+  border-radius: 80%;
+  float: left;
+  margin-right: 10px;
+}
+.container p:first-letter {
+  float: left;
+  font-size: 80px;
+  line-height: 65px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-weight: 600;
+}
+.panels {
+  text-align: center;
+}
+.panel {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  background-size: cover;
+}
+.panel p {
+  font-size: 24px;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#panel-a {
+  background-image: url('images/stockPhotoLaptopKeyboard.jpg');
+}
+#panel-b {
+  background-image: url('images/stockPhotoLightBulb.jpg');
+}
+#panel-c {
+  background-image: url('images/stockPhotoWhatWeDo.jpg');
+}
